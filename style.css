@@ -1,3 +1,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.banner-container{
+    background-color: #D2F4EA;
+}
+.banner-column{
+    background-color:#4DD4AC;
+}
