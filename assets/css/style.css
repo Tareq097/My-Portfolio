@@ -9,7 +9,7 @@ body{
     background-color:#20C997;
 }
 .navbar-container{
-    background-color: #0D503C;
+    background-color: #34c398;
 }
 .about-container{
     background-color:#20C997 ;
@@ -25,4 +25,10 @@ body{
     width: 150px;
     height: 150px;
     border-radius:50%;
+}
+.project-container{
+    background-color: rgb(220, 255, 196);
+}
+.portfolio-container{
+    background-color: #71e6d2;
 }
