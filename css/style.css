@@ -1,2 +1,35 @@
-/* import fonts from fonts.css file */
-@import url(./fonts.css);
+/* General */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F1913A;
+  color: #fff;
+  position: relative;
+  background: transparent;
+}
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("/img/p5.jpg") top center no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+a {
+  color: #3decd5;
+}
+a:hover {
+  color: #bee835;
+  text-decoration: none;
+}
+.navbar{
+    background-color: #6b0000a9;
+}
