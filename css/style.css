@@ -33,3 +33,62 @@ a:hover {
 .navbar{
     background-color: #6b0000a9;
 }
+.upper-title h2::after {
+  content: "";
+  width: 220px;
+  height: 1px;
+  display: inline-block;
+  background: #fff;
+  margin: 4px 10px;
+}
+
+.button{
+  font: 500 16px/20px;
+  position: relative
+  border: 3px solid transparent;
+  boreder-radius: 4px;
+
+}
+.button.primary-button{
+  background: #EB8933;
+  background-clip: padding-box;
+  color:whitesmoke;
+  transition: .6s ease-in-out;
+  box-shadow: #FFF069;
+}
+.button.primary-button:hover{
+  background: #bee835;
+  color: #040404;
+}
+.counter-container{
+  padding: 70px 0 60px;
+}
+.counter-container .counter-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #e7b0173d ;
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+#bar{
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.padding-bar{
+  padding: 10px 0;
+  display: block;
+  font-weight: 600;
+  color: #fff;
+}
+.interests-container .icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+.icon-box i {
+  font-size: 25px;
+  padding-right: 15px;
+}
