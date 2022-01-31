@@ -149,6 +149,18 @@ input[type=text], select, textarea {
 }
 
 
+input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ecab5677; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background: rgba(243, 243, 242, 0.08);
+}
+
 /* Add a background color and some padding around the form */
 #form {
   border-radius: 5px;
@@ -161,4 +173,8 @@ input[type=text], select, textarea {
 }
 #country{
   background-color: #e9942677;
+}
+.counter-box i{
+  font-size: 40px;
+  color: cyan;
 }
