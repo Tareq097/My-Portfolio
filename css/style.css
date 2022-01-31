@@ -128,3 +128,34 @@ a:hover {
   background: rgba(233, 204, 42, 0.08);
   transition: ease-in-out 0.3s;
 }
+.info-box{
+  align-items: center;
+  padding: 10px;
+  background: rgba(233, 204, 42, 0.08);
+  transition: ease-in-out 0.3s;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ecab5677; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background: rgba(243, 243, 242, 0.08);
+}
+
+
+/* Add a background color and some padding around the form */
+#form {
+  border-radius: 5px;
+  background-color: #e9942677;
+  padding: 20px;
+}
+.info-box i{
+  font-size: 25px;
+  color: #bee835;
+}
